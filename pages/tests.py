@@ -2,7 +2,8 @@ from django.test import TestCase
 from django.test import SimpleTestCase
 from django.urls import reverse, resolve
 from .views import HomePageView
-
+from .forms import CustomUserCreationForm  # new
+from .views import SignupPageView  # new
 
 class HomepageTests(SimpleTestCase):
     def setUp(self):  # new
