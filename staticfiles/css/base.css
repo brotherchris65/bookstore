@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+  }
+p {
+  color: blue;
+  font-size: 20px;
+}
+.selfie {
+  height: 300px;
+  width: auto;
+}
+.book {
+  height: 200px;
+  width: auto;
+}
