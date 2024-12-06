@@ -5,8 +5,9 @@ urlpatterns = [
     # Django admin
     path("admin/", admin.site.urls),
     # User management
-    path("accounts/", include("django.contrib.auth.urls")),
+    path("accounts/", include("allauth.urls")), 
+    #path("accounts/", include("django.contrib.auth.urls")),
     # Local apps
-    path("accounts/", include("accounts.urls")),  # new
+    #path("accounts/", include("accounts.urls")),  # new
     path("", include("pages.urls")),
 ]
